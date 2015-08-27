@@ -20,7 +20,7 @@ Add this to your `build.gradle` file
 	}
 
 	dependencies {
-	        compile 'com.github.quentin7b:whateverapi:1.0'
+	        compile 'com.github.quentin7b:android-whatever-api:1.0.0'
 	}
 
 Please note that *WhateverApi* has some dependencies:
