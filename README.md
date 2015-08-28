@@ -37,6 +37,14 @@ For example: the `Resources` [class of *android*](http://developer.android.com/r
 
 Once you have your *class*, every method is *public static*, so you can use it as it without creating an object
 
+About the *method* to use. Let's go back to `Resources`, guess you want a *color*
+Just call
+
+	int color = WEApiResources.getColor(resources, colorResId, theme);
+	
+If you're on 23+, it will return `resources.getColor(colorResId, theme);` but if you're 23-, then it will return `resources.getColor(colorResId);`
+	
+
 ### Understand it
 
 All the classes belongs to the package they are on android, but within `com.github.quentin7b`
