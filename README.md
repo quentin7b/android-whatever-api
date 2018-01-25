@@ -1,6 +1,8 @@
 android-whatever-api
 ========================
 
+## DEPRECATED This lib is not supported anymore, the idea is very close to the [ContextCompat](https://developer.android.com/reference/android/support/v4/content/ContextCompat.html) class.
+
 WhateverApi is an Android library that helps you to get ride of the boring code
 
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.SOME_ANDROID_API) {
